@@ -13,7 +13,8 @@ The goals of this project are two-fold:
 
 1. OpenCV library for Computer Vision
 2. Python for OpenCV
-3. React Native to build the app
+3. Tensorflow Object Detection to do Pixel Wise Classification
+4. React Native to build the app
 
 ## What I'm Building
 
@@ -24,6 +25,12 @@ This device is quite versatile and has (at least) the following functions, which
 1. **Object detection:** When a photo is taken of a certain object, the Sheikah Slate AI recognizes that object and can provide a handful of details about it.
 
 ![image](https://github.com/jekkilekki/sheikah-slate/raw/master/img/image.png)
+
+Example of actual Pixel Wise Classification using Tensorflow:
+
+![image](https://github.com/jekkilekki/sheikah-slate/raw/master/img/image-detection.gif)
+
+Image reference: [KDNuggets](https://www.kdnuggets.com/2018/03/tensorflow-object-detection-pixel-wise-classification.html)
 
 2. **Stasis (rune):** When activated, the screen darkens and becomes slightly yellow in tint. Moving objects like living things and machines in motion will be highlighted in yellow and can be targeted. If the button is pressed while targeting a highlighted object, that object becomes temporarily "frozen" in time and space.
 
